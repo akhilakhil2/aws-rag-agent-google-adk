@@ -1,0 +1,44 @@
+Environment Variables
+
+.env
+
+Python
+
+pycache/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+Vector Database (Local persistence)
+
+vectorstore/
+chroma_db/
+*.db
+
+Data
+
+*.pdf
+!rag_pdf.pdf_template # Example of how to ignore all pdfs except a template if needed
+
+Logs
+
+*.log
+agent_system.log
+
+IDEs
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+OS related
+
+.DS_Store
+Thumbs.db

@@ -1,0 +1,21 @@
+# --- Core Agentic Framework ---
+google-adk                  # Google Agent Development Kit for orchestration 
+
+# --- LLM & API Integration ---
+python-dotenv               # Loading environment variables (GROQ_API_KEY)
+litellm                     # High-level interface for Groq/Llama models 
+pydantic>=2.0.0             # Data validation and schema enforcement 
+
+# --- RAG & Vector Database ---
+langchain-chroma            # Persistent vector store (ChromaDB)
+langchain-huggingface       # Embeddings using HuggingFace models 
+sentence-transformers       # Required for all-MiniLM-L6-v2 embeddings 
+chromadb                    # Underlying vector database engine
+
+# --- Document Processing ---
+pypdf                       # PDF loading and extraction
+langchain-text-splitters    # Semantic and recursive chunking 
+
+# --- Utilities ---
+asyncio                     # Async event loop management
+logging                     # Observability and traceability 
